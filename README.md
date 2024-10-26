@@ -29,3 +29,7 @@ rm -f $ZIP_FILE
 zip -r $ZIP_FILE LSDA_P1.py requirements.txt
 
 echo "Created $ZIP_FILE with LSDA_P1.py as the entry point and dependencies."
+
+# Setting Environment Variable and Running the Job
+export PAGE_PAIRS_OUTPUT="s3://your-output-path"
+
