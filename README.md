@@ -27,4 +27,7 @@ Here are the commands to run each script in the cmd:
 - **To upload the zip file to your S3 bucket**:
   ```bash
   python upload_zip.py
+  ```
+-> The code execution to generate the mutual page pairs was completed within **1030 seconds**, which is approximately **17 minutes and 10 seconds**.
+  
 
